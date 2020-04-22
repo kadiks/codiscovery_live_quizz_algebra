@@ -1,0 +1,51 @@
+h1, h2, h3, h4 {
+    color: #00ADA9;
+    font-family: 'Oswald', sans-serif;
+}
+h4 {
+    color: #000;
+}
+body {
+    background: #F7EDE2;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+button {
+    background: #FF5757;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 20px;
+    font-size: 1.3em;
+    box-shadow: #AAA 1px 1px 3px; 
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 25px;
+    margin: 0 5px;
+    /* border: #AAA 1px solid; */
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FF5757;
+    box-shadow: #AAA 1px 1px 3px; 
+}
+
+#question-count {
+    text-align: right;
+}
+
+
+#answer-screen {
+    display: none;
+}
+
